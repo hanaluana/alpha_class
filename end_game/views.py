@@ -10,3 +10,5 @@ def create(request):
         post = form.save(commit=False)
         post.user = request.user
         post.save()
+    else:
+        pass
